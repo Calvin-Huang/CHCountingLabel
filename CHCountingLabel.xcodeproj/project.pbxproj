@@ -7,17 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		18E8BCC71D7A719500CC8893 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E8BCC61D7A719500CC8893 /* AppDelegate.swift */; };
-		18E8BCC91D7A719500CC8893 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E8BCC81D7A719500CC8893 /* ViewController.swift */; };
-		18E8BCCC1D7A719500CC8893 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E8BCCA1D7A719500CC8893 /* Main.storyboard */; };
-		18E8BCCE1D7A719500CC8893 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18E8BCCD1D7A719500CC8893 /* Assets.xcassets */; };
-		18E8BCD11D7A719500CC8893 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E8BCCF1D7A719500CC8893 /* LaunchScreen.storyboard */; };
-		18E8BCDC1D7A719500CC8893 /* Animation_IssueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E8BCDB1D7A719500CC8893 /* Animation_IssueTests.swift */; };
-		18E8BCE71D7A719500CC8893 /* Animation_IssueUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E8BCE61D7A719500CC8893 /* Animation_IssueUITests.swift */; };
-		18E8BCF61D7AECCC00CC8893 /* CountingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E8BCF51D7AECCC00CC8893 /* CountingLabel.swift */; };
-		841DA4B2FEDABF3A3FDA6011 /* Pods_Animation_Issue.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9709DDD6CD83F85CAE124BC /* Pods_Animation_Issue.framework */; };
-		B083D87CAA43525835BCABD7 /* Pods_Animation_IssueUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 383707066CD949603D33ECC6 /* Pods_Animation_IssueUITests.framework */; };
-		F1418C0C52CB97F98C2512DD /* Pods_Animation_IssueTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF732BAC30941136968899D7 /* Pods_Animation_IssueTests.framework */; };
+		18EAE571F59554AA7F9A31C3 /* Pods_CHCountingLabelTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CC2A6C85D7DFE19BADE08C7 /* Pods_CHCountingLabelTests.framework */; };
+		18FE3E7F1D7CA119008CC182 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FE3E7B1D7CA119008CC182 /* ViewController.swift */; };
+		18FE3E801D7CA119008CC182 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FE3E7C1D7CA119008CC182 /* AppDelegate.swift */; };
+		18FE3E811D7CA119008CC182 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18FE3E7D1D7CA119008CC182 /* Assets.xcassets */; };
+		18FE3E841D7CA137008CC182 /* CountingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FE3E831D7CA137008CC182 /* CountingLabel.swift */; };
+		18FE3E931D7CA49C008CC182 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18FE3E8F1D7CA49C008CC182 /* Main.storyboard */; };
+		18FE3E941D7CA49C008CC182 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18FE3E911D7CA49C008CC182 /* LaunchScreen.storyboard */; };
+		9CF11D62FBA74B116EC6ED75 /* Pods_CHCountingLabelUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB5EEE611B48B235261F7DF3 /* Pods_CHCountingLabelUITests.framework */; };
+		FF5EEF36D06D6986DA76F95B /* Pods_CHCountingLabel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9788172C58F3F1360FB222C /* Pods_CHCountingLabel.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,29 +36,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		18E8BCC31D7A719400CC8893 /* Animation-Issue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Animation-Issue.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		18E8BCC61D7A719500CC8893 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		18E8BCC81D7A719500CC8893 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		18E8BCCB1D7A719500CC8893 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		18E8BCCD1D7A719500CC8893 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		18E8BCD01D7A719500CC8893 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		18E8BCD21D7A719500CC8893 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		18E8BCD71D7A719500CC8893 /* Animation-IssueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Animation-IssueTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		18E8BCDB1D7A719500CC8893 /* Animation_IssueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation_IssueTests.swift; sourceTree = "<group>"; };
-		18E8BCDD1D7A719500CC8893 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		18E8BCE21D7A719500CC8893 /* Animation-IssueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Animation-IssueUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		18E8BCE61D7A719500CC8893 /* Animation_IssueUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation_IssueUITests.swift; sourceTree = "<group>"; };
-		18E8BCE81D7A719500CC8893 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		18E8BCF51D7AECCC00CC8893 /* CountingLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountingLabel.swift; sourceTree = "<group>"; };
-		383707066CD949603D33ECC6 /* Pods_Animation_IssueUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Animation_IssueUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B0BBE25CD9F3D50F00F50FC /* Pods-Animation-Issue.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Animation-Issue.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Animation-Issue/Pods-Animation-Issue.debug.xcconfig"; sourceTree = "<group>"; };
-		AF9943C7C5E48367F7B839B7 /* Pods-Animation-IssueTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Animation-IssueTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Animation-IssueTests/Pods-Animation-IssueTests.debug.xcconfig"; sourceTree = "<group>"; };
-		B1C4759BB6B3F7F60D9103C7 /* Pods-Animation-IssueUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Animation-IssueUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Animation-IssueUITests/Pods-Animation-IssueUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		B87A6758BD8FDFD88E7752B3 /* Pods-Animation-IssueTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Animation-IssueTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Animation-IssueTests/Pods-Animation-IssueTests.release.xcconfig"; sourceTree = "<group>"; };
-		C9709DDD6CD83F85CAE124BC /* Pods_Animation_Issue.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Animation_Issue.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF732BAC30941136968899D7 /* Pods_Animation_IssueTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Animation_IssueTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E4423A72D15F0D9856498F2C /* Pods-Animation-Issue.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Animation-Issue.release.xcconfig"; path = "Pods/Target Support Files/Pods-Animation-Issue/Pods-Animation-Issue.release.xcconfig"; sourceTree = "<group>"; };
-		EF5597A9A7C412455CB7247E /* Pods-Animation-IssueUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Animation-IssueUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Animation-IssueUITests/Pods-Animation-IssueUITests.release.xcconfig"; sourceTree = "<group>"; };
+		18E8BCC31D7A719400CC8893 /* CHCountingLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CHCountingLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E8BCD71D7A719500CC8893 /* CHCountingLabel.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CHCountingLabel.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E8BCE21D7A719500CC8893 /* CHCountingLabel.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CHCountingLabel.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18FE3E7B1D7CA119008CC182 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = CHCountingLabel/ViewController.swift; sourceTree = SOURCE_ROOT; };
+		18FE3E7C1D7CA119008CC182 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = CHCountingLabel/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
+		18FE3E7D1D7CA119008CC182 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = CHCountingLabel/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		18FE3E831D7CA137008CC182 /* CountingLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CountingLabel.swift; path = CHCountingLabel/CountingLabel.swift; sourceTree = SOURCE_ROOT; };
+		18FE3E901D7CA49C008CC182 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = CHCountingLabel/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
+		18FE3E921D7CA49C008CC182 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = CHCountingLabel/Base.lproj/LaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
+		1A7024D33C0512C61977ECD7 /* Pods-CHCountingLabel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHCountingLabel.release.xcconfig"; path = "Pods/Target Support Files/Pods-CHCountingLabel/Pods-CHCountingLabel.release.xcconfig"; sourceTree = "<group>"; };
+		5A6A2D825A57546A367A35AE /* Pods-CHCountingLabel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHCountingLabel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CHCountingLabel/Pods-CHCountingLabel.debug.xcconfig"; sourceTree = "<group>"; };
+		6EF656F11EE8BC87FF389131 /* Pods-CHCountingLabelUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHCountingLabelUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CHCountingLabelUITests/Pods-CHCountingLabelUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		704B24B69E3D2DA28CD1C3CF /* Pods-CHCountingLabelUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHCountingLabelUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CHCountingLabelUITests/Pods-CHCountingLabelUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8CC2A6C85D7DFE19BADE08C7 /* Pods_CHCountingLabelTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CHCountingLabelTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EBE285E41BA5CD2B53E8434 /* Pods-CHCountingLabelTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHCountingLabelTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CHCountingLabelTests/Pods-CHCountingLabelTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BB5EEE611B48B235261F7DF3 /* Pods_CHCountingLabelUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CHCountingLabelUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB6B3A16C42AA4927817B4B6 /* Pods-CHCountingLabelTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHCountingLabelTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CHCountingLabelTests/Pods-CHCountingLabelTests.release.xcconfig"; sourceTree = "<group>"; };
+		F9788172C58F3F1360FB222C /* Pods_CHCountingLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CHCountingLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				841DA4B2FEDABF3A3FDA6011 /* Pods_Animation_Issue.framework in Frameworks */,
+				FF5EEF36D06D6986DA76F95B /* Pods_CHCountingLabel.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,7 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1418C0C52CB97F98C2512DD /* Pods_Animation_IssueTests.framework in Frameworks */,
+				18EAE571F59554AA7F9A31C3 /* Pods_CHCountingLabelTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,7 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B083D87CAA43525835BCABD7 /* Pods_Animation_IssueUITests.framework in Frameworks */,
+				9CF11D62FBA74B116EC6ED75 /* Pods_CHCountingLabelUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,9 +87,7 @@
 		18E8BCBA1D7A719400CC8893 = {
 			isa = PBXGroup;
 			children = (
-				18E8BCC51D7A719500CC8893 /* Animation-Issue */,
-				18E8BCDA1D7A719500CC8893 /* Animation-IssueTests */,
-				18E8BCE51D7A719500CC8893 /* Animation-IssueUITests */,
+				18E8BCC51D7A719500CC8893 /* CHCountingLabel */,
 				18E8BCC41D7A719400CC8893 /* Products */,
 				9DB620E55B7740B959040829 /* Pods */,
 				C443CE7CCF92B556296F566E /* Frameworks */,
@@ -106,49 +97,31 @@
 		18E8BCC41D7A719400CC8893 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				18E8BCC31D7A719400CC8893 /* Animation-Issue.app */,
-				18E8BCD71D7A719500CC8893 /* Animation-IssueTests.xctest */,
-				18E8BCE21D7A719500CC8893 /* Animation-IssueUITests.xctest */,
+				18E8BCC31D7A719400CC8893 /* CHCountingLabel.app */,
+				18E8BCD71D7A719500CC8893 /* CHCountingLabel.xctest */,
+				18E8BCE21D7A719500CC8893 /* CHCountingLabel.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		18E8BCC51D7A719500CC8893 /* Animation-Issue */ = {
+		18E8BCC51D7A719500CC8893 /* CHCountingLabel */ = {
 			isa = PBXGroup;
 			children = (
 				18E8BCF41D7AECA400CC8893 /* Views */,
-				18E8BCC61D7A719500CC8893 /* AppDelegate.swift */,
-				18E8BCC81D7A719500CC8893 /* ViewController.swift */,
-				18E8BCCA1D7A719500CC8893 /* Main.storyboard */,
-				18E8BCCD1D7A719500CC8893 /* Assets.xcassets */,
-				18E8BCCF1D7A719500CC8893 /* LaunchScreen.storyboard */,
-				18E8BCD21D7A719500CC8893 /* Info.plist */,
+				18FE3E7B1D7CA119008CC182 /* ViewController.swift */,
+				18FE3E7C1D7CA119008CC182 /* AppDelegate.swift */,
+				18FE3E7D1D7CA119008CC182 /* Assets.xcassets */,
+				18FE3E8F1D7CA49C008CC182 /* Main.storyboard */,
+				18FE3E911D7CA49C008CC182 /* LaunchScreen.storyboard */,
 			);
+			name = CHCountingLabel;
 			path = "Animation-Issue";
-			sourceTree = "<group>";
-		};
-		18E8BCDA1D7A719500CC8893 /* Animation-IssueTests */ = {
-			isa = PBXGroup;
-			children = (
-				18E8BCDB1D7A719500CC8893 /* Animation_IssueTests.swift */,
-				18E8BCDD1D7A719500CC8893 /* Info.plist */,
-			);
-			path = "Animation-IssueTests";
-			sourceTree = "<group>";
-		};
-		18E8BCE51D7A719500CC8893 /* Animation-IssueUITests */ = {
-			isa = PBXGroup;
-			children = (
-				18E8BCE61D7A719500CC8893 /* Animation_IssueUITests.swift */,
-				18E8BCE81D7A719500CC8893 /* Info.plist */,
-			);
-			path = "Animation-IssueUITests";
 			sourceTree = "<group>";
 		};
 		18E8BCF41D7AECA400CC8893 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				18E8BCF51D7AECCC00CC8893 /* CountingLabel.swift */,
+				18FE3E831D7CA137008CC182 /* CountingLabel.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -156,12 +129,12 @@
 		9DB620E55B7740B959040829 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3B0BBE25CD9F3D50F00F50FC /* Pods-Animation-Issue.debug.xcconfig */,
-				E4423A72D15F0D9856498F2C /* Pods-Animation-Issue.release.xcconfig */,
-				AF9943C7C5E48367F7B839B7 /* Pods-Animation-IssueTests.debug.xcconfig */,
-				B87A6758BD8FDFD88E7752B3 /* Pods-Animation-IssueTests.release.xcconfig */,
-				B1C4759BB6B3F7F60D9103C7 /* Pods-Animation-IssueUITests.debug.xcconfig */,
-				EF5597A9A7C412455CB7247E /* Pods-Animation-IssueUITests.release.xcconfig */,
+				5A6A2D825A57546A367A35AE /* Pods-CHCountingLabel.debug.xcconfig */,
+				1A7024D33C0512C61977ECD7 /* Pods-CHCountingLabel.release.xcconfig */,
+				9EBE285E41BA5CD2B53E8434 /* Pods-CHCountingLabelTests.debug.xcconfig */,
+				CB6B3A16C42AA4927817B4B6 /* Pods-CHCountingLabelTests.release.xcconfig */,
+				6EF656F11EE8BC87FF389131 /* Pods-CHCountingLabelUITests.debug.xcconfig */,
+				704B24B69E3D2DA28CD1C3CF /* Pods-CHCountingLabelUITests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -169,9 +142,9 @@
 		C443CE7CCF92B556296F566E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C9709DDD6CD83F85CAE124BC /* Pods_Animation_Issue.framework */,
-				DF732BAC30941136968899D7 /* Pods_Animation_IssueTests.framework */,
-				383707066CD949603D33ECC6 /* Pods_Animation_IssueUITests.framework */,
+				F9788172C58F3F1360FB222C /* Pods_CHCountingLabel.framework */,
+				8CC2A6C85D7DFE19BADE08C7 /* Pods_CHCountingLabelTests.framework */,
+				BB5EEE611B48B235261F7DF3 /* Pods_CHCountingLabelUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -179,9 +152,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		18E8BCC21D7A719400CC8893 /* Animation-Issue */ = {
+		18E8BCC21D7A719400CC8893 /* CHCountingLabel */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 18E8BCEB1D7A719500CC8893 /* Build configuration list for PBXNativeTarget "Animation-Issue" */;
+			buildConfigurationList = 18E8BCEB1D7A719500CC8893 /* Build configuration list for PBXNativeTarget "CHCountingLabel" */;
 			buildPhases = (
 				C9E1058420BFF9BDE7B10688 /* [CP] Check Pods Manifest.lock */,
 				18E8BCBF1D7A719400CC8893 /* Sources */,
@@ -194,14 +167,14 @@
 			);
 			dependencies = (
 			);
-			name = "Animation-Issue";
+			name = CHCountingLabel;
 			productName = "Animation-Issue";
-			productReference = 18E8BCC31D7A719400CC8893 /* Animation-Issue.app */;
+			productReference = 18E8BCC31D7A719400CC8893 /* CHCountingLabel.app */;
 			productType = "com.apple.product-type.application";
 		};
-		18E8BCD61D7A719500CC8893 /* Animation-IssueTests */ = {
+		18E8BCD61D7A719500CC8893 /* CHCountingLabelTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 18E8BCEE1D7A719500CC8893 /* Build configuration list for PBXNativeTarget "Animation-IssueTests" */;
+			buildConfigurationList = 18E8BCEE1D7A719500CC8893 /* Build configuration list for PBXNativeTarget "CHCountingLabelTests" */;
 			buildPhases = (
 				1534C150528E7C5BC611E652 /* [CP] Check Pods Manifest.lock */,
 				18E8BCD31D7A719500CC8893 /* Sources */,
@@ -215,14 +188,14 @@
 			dependencies = (
 				18E8BCD91D7A719500CC8893 /* PBXTargetDependency */,
 			);
-			name = "Animation-IssueTests";
+			name = CHCountingLabelTests;
 			productName = "Animation-IssueTests";
-			productReference = 18E8BCD71D7A719500CC8893 /* Animation-IssueTests.xctest */;
+			productReference = 18E8BCD71D7A719500CC8893 /* CHCountingLabel.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		18E8BCE11D7A719500CC8893 /* Animation-IssueUITests */ = {
+		18E8BCE11D7A719500CC8893 /* CHCountingLabelUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 18E8BCF11D7A719500CC8893 /* Build configuration list for PBXNativeTarget "Animation-IssueUITests" */;
+			buildConfigurationList = 18E8BCF11D7A719500CC8893 /* Build configuration list for PBXNativeTarget "CHCountingLabelUITests" */;
 			buildPhases = (
 				4EBF884AE682322633B5746E /* [CP] Check Pods Manifest.lock */,
 				18E8BCDE1D7A719500CC8893 /* Sources */,
@@ -235,9 +208,9 @@
 			dependencies = (
 				18E8BCE41D7A719500CC8893 /* PBXTargetDependency */,
 			);
-			name = "Animation-IssueUITests";
+			name = CHCountingLabelUITests;
 			productName = "Animation-IssueUITests";
-			productReference = 18E8BCE21D7A719500CC8893 /* Animation-IssueUITests.xctest */;
+			productReference = 18E8BCE21D7A719500CC8893 /* CHCountingLabel.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -263,7 +236,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 18E8BCBE1D7A719400CC8893 /* Build configuration list for PBXProject "Animation-Issue" */;
+			buildConfigurationList = 18E8BCBE1D7A719400CC8893 /* Build configuration list for PBXProject "CHCountingLabel" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -276,9 +249,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				18E8BCC21D7A719400CC8893 /* Animation-Issue */,
-				18E8BCD61D7A719500CC8893 /* Animation-IssueTests */,
-				18E8BCE11D7A719500CC8893 /* Animation-IssueUITests */,
+				18E8BCC21D7A719400CC8893 /* CHCountingLabel */,
+				18E8BCD61D7A719500CC8893 /* CHCountingLabelTests */,
+				18E8BCE11D7A719500CC8893 /* CHCountingLabelUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -288,9 +261,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18E8BCD11D7A719500CC8893 /* LaunchScreen.storyboard in Resources */,
-				18E8BCCE1D7A719500CC8893 /* Assets.xcassets in Resources */,
-				18E8BCCC1D7A719500CC8893 /* Main.storyboard in Resources */,
+				18FE3E811D7CA119008CC182 /* Assets.xcassets in Resources */,
+				18FE3E941D7CA49C008CC182 /* LaunchScreen.storyboard in Resources */,
+				18FE3E931D7CA49C008CC182 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,7 +311,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Animation-IssueUITests/Pods-Animation-IssueUITests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CHCountingLabelUITests/Pods-CHCountingLabelUITests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		3F3D0DD57B9AEB119B91A4EA /* [CP] Copy Pods Resources */ = {
@@ -353,7 +326,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Animation-Issue/Pods-Animation-Issue-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CHCountingLabel/Pods-CHCountingLabel-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		4EBF884AE682322633B5746E /* [CP] Check Pods Manifest.lock */ = {
@@ -383,7 +356,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Animation-IssueTests/Pods-Animation-IssueTests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CHCountingLabelTests/Pods-CHCountingLabelTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C87415D0C1099770C6958ACF /* [CP] Embed Pods Frameworks */ = {
@@ -398,7 +371,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Animation-IssueTests/Pods-Animation-IssueTests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CHCountingLabelTests/Pods-CHCountingLabelTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C9E1058420BFF9BDE7B10688 /* [CP] Check Pods Manifest.lock */ = {
@@ -428,7 +401,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Animation-Issue/Pods-Animation-Issue-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CHCountingLabel/Pods-CHCountingLabel-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -438,9 +411,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18E8BCF61D7AECCC00CC8893 /* CountingLabel.swift in Sources */,
-				18E8BCC91D7A719500CC8893 /* ViewController.swift in Sources */,
-				18E8BCC71D7A719500CC8893 /* AppDelegate.swift in Sources */,
+				18FE3E7F1D7CA119008CC182 /* ViewController.swift in Sources */,
+				18FE3E841D7CA137008CC182 /* CountingLabel.swift in Sources */,
+				18FE3E801D7CA119008CC182 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,7 +421,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18E8BCDC1D7A719500CC8893 /* Animation_IssueTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,7 +428,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18E8BCE71D7A719500CC8893 /* Animation_IssueUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -465,29 +436,29 @@
 /* Begin PBXTargetDependency section */
 		18E8BCD91D7A719500CC8893 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 18E8BCC21D7A719400CC8893 /* Animation-Issue */;
+			target = 18E8BCC21D7A719400CC8893 /* CHCountingLabel */;
 			targetProxy = 18E8BCD81D7A719500CC8893 /* PBXContainerItemProxy */;
 		};
 		18E8BCE41D7A719500CC8893 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 18E8BCC21D7A719400CC8893 /* Animation-Issue */;
+			target = 18E8BCC21D7A719400CC8893 /* CHCountingLabel */;
 			targetProxy = 18E8BCE31D7A719500CC8893 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		18E8BCCA1D7A719500CC8893 /* Main.storyboard */ = {
+		18FE3E8F1D7CA49C008CC182 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				18E8BCCB1D7A719500CC8893 /* Base */,
+				18FE3E901D7CA49C008CC182 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		18E8BCCF1D7A719500CC8893 /* LaunchScreen.storyboard */ = {
+		18FE3E911D7CA49C008CC182 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				18E8BCD01D7A719500CC8893 /* Base */,
+				18FE3E921D7CA49C008CC182 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -580,82 +551,82 @@
 		};
 		18E8BCEC1D7A719500CC8893 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B0BBE25CD9F3D50F00F50FC /* Pods-Animation-Issue.debug.xcconfig */;
+			baseConfigurationReference = 5A6A2D825A57546A367A35AE /* Pods-CHCountingLabel.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "Animation-Issue/Info.plist";
+				INFOPLIST_FILE = CHCountingLabel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.capslock.Animation-Issue";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = org.capslock.CHCountingLabel;
+				PRODUCT_NAME = CHCountingLabel;
 			};
 			name = Debug;
 		};
 		18E8BCED1D7A719500CC8893 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E4423A72D15F0D9856498F2C /* Pods-Animation-Issue.release.xcconfig */;
+			baseConfigurationReference = 1A7024D33C0512C61977ECD7 /* Pods-CHCountingLabel.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "Animation-Issue/Info.plist";
+				INFOPLIST_FILE = CHCountingLabel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.capslock.Animation-Issue";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = org.capslock.CHCountingLabel;
+				PRODUCT_NAME = CHCountingLabel;
 			};
 			name = Release;
 		};
 		18E8BCEF1D7A719500CC8893 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AF9943C7C5E48367F7B839B7 /* Pods-Animation-IssueTests.debug.xcconfig */;
+			baseConfigurationReference = 9EBE285E41BA5CD2B53E8434 /* Pods-CHCountingLabelTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = "Animation-IssueTests/Info.plist";
+				INFOPLIST_FILE = CHCountingLabelTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.capslock.Animation-IssueTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Animation-Issue.app/Animation-Issue";
+				PRODUCT_BUNDLE_IDENTIFIER = org.capslock.CHCountingLabelTests;
+				PRODUCT_NAME = CHCountingLabel;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CHCountingLabel.app/CHCountingLabel";
 			};
 			name = Debug;
 		};
 		18E8BCF01D7A719500CC8893 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B87A6758BD8FDFD88E7752B3 /* Pods-Animation-IssueTests.release.xcconfig */;
+			baseConfigurationReference = CB6B3A16C42AA4927817B4B6 /* Pods-CHCountingLabelTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = "Animation-IssueTests/Info.plist";
+				INFOPLIST_FILE = CHCountingLabelTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.capslock.Animation-IssueTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Animation-Issue.app/Animation-Issue";
+				PRODUCT_BUNDLE_IDENTIFIER = org.capslock.CHCountingLabelTests;
+				PRODUCT_NAME = CHCountingLabel;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CHCountingLabel.app/CHCountingLabel";
 			};
 			name = Release;
 		};
 		18E8BCF21D7A719500CC8893 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B1C4759BB6B3F7F60D9103C7 /* Pods-Animation-IssueUITests.debug.xcconfig */;
+			baseConfigurationReference = 6EF656F11EE8BC87FF389131 /* Pods-CHCountingLabelUITests.debug.xcconfig */;
 			buildSettings = {
-				INFOPLIST_FILE = "Animation-IssueUITests/Info.plist";
+				INFOPLIST_FILE = CHCountingLabelUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.capslock.Animation-IssueUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = "Animation-Issue";
+				PRODUCT_BUNDLE_IDENTIFIER = org.capslock.CHCountingLabelUITests;
+				PRODUCT_NAME = CHCountingLabel;
+				TEST_TARGET_NAME = CHCountingLabel;
 			};
 			name = Debug;
 		};
 		18E8BCF31D7A719500CC8893 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EF5597A9A7C412455CB7247E /* Pods-Animation-IssueUITests.release.xcconfig */;
+			baseConfigurationReference = 704B24B69E3D2DA28CD1C3CF /* Pods-CHCountingLabelUITests.release.xcconfig */;
 			buildSettings = {
-				INFOPLIST_FILE = "Animation-IssueUITests/Info.plist";
+				INFOPLIST_FILE = CHCountingLabelUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.capslock.Animation-IssueUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = "Animation-Issue";
+				PRODUCT_BUNDLE_IDENTIFIER = org.capslock.CHCountingLabelUITests;
+				PRODUCT_NAME = CHCountingLabel;
+				TEST_TARGET_NAME = CHCountingLabel;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		18E8BCBE1D7A719400CC8893 /* Build configuration list for PBXProject "Animation-Issue" */ = {
+		18E8BCBE1D7A719400CC8893 /* Build configuration list for PBXProject "CHCountingLabel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				18E8BCE91D7A719500CC8893 /* Debug */,
@@ -664,7 +635,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		18E8BCEB1D7A719500CC8893 /* Build configuration list for PBXNativeTarget "Animation-Issue" */ = {
+		18E8BCEB1D7A719500CC8893 /* Build configuration list for PBXNativeTarget "CHCountingLabel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				18E8BCEC1D7A719500CC8893 /* Debug */,
@@ -673,7 +644,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		18E8BCEE1D7A719500CC8893 /* Build configuration list for PBXNativeTarget "Animation-IssueTests" */ = {
+		18E8BCEE1D7A719500CC8893 /* Build configuration list for PBXNativeTarget "CHCountingLabelTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				18E8BCEF1D7A719500CC8893 /* Debug */,
@@ -682,7 +653,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		18E8BCF11D7A719500CC8893 /* Build configuration list for PBXNativeTarget "Animation-IssueUITests" */ = {
+		18E8BCF11D7A719500CC8893 /* Build configuration list for PBXNativeTarget "CHCountingLabelUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				18E8BCF21D7A719500CC8893 /* Debug */,

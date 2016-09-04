@@ -1,19 +1,19 @@
 # Uncomment this line to define a global platform for your project
 # platform :ios, '9.0'
 
-target 'Animation-Issue' do
+target 'CHCountingLabel' do
   # Comment this line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
 
-  # Pods for Animation-Issue
+  # Pods for CHCountingLabel
   pod 'CHCubicBezier'
 
-  target 'Animation-IssueTests' do
+  target 'CHCountingLabelTests' do
     inherit! :search_paths
     # Pods for testing
   end
 
-  target 'Animation-IssueUITests' do
+  target 'CHCountingLabelUITests' do
     inherit! :search_paths
     # Pods for testing
   end

@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  Animation-Issue
+//  CHCountingLabel
 //
 //  Created by Calvin on 9/3/16.
 //  Copyright © 2016 CapsLock. All rights reserved.
