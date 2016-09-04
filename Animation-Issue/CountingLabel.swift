@@ -82,19 +82,19 @@ class CountingLabel: UILabel {
         
         // If duration is equal to zero, change time is stopValue reduce to startCountingValue means update text per seconds.
         let changeTime = NSDate.timeIntervalSinceReferenceDate() - startTimeStamp
+        let changeValue = stopValue - startCountingValue
+        var t = 1.0
         
         if changeTime >= duration {
             timer?.invalidate()
             timer = nil
         } else {
-            let changeValue = stopValue - startCountingValue
-            
-            let t = changeTime / duration
-            
-            currentCountingValue = startCountingValue + changeValue * cubicBezier.easing(t)
-            
-            self.text = textFormatter(value: currentCountingValue)
+            t = changeTime / duration
         }
+        
+        currentCountingValue = startCountingValue + changeValue * cubicBezier.easing(t)
+        
+        self.text = textFormatter(value: currentCountingValue)
     }
     
     // MARK: - Public Methods
