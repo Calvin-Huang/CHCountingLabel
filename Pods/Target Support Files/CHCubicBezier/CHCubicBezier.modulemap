@@ -1,0 +1,6 @@
+framework module CHCubicBezier {
+  umbrella header "CHCubicBezier-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,49 +7,107 @@
 //
 
 import UIKit
+import CHCubicBezier
 
 class CountingLabel: UILabel {
-    enum CountingMode: Int {
-        case Decrease = -1
-        case Increase = 1
+    var duration: Float = 0
+    var easingControlPoints: (x1: Double, y1: Double, x2: Double, y2: Double)? {
+        didSet {
+            cubicBezier = CubicBezier(controlPoints: easingControlPoints!)
+        }
     }
     
-    var countingMode: CountingMode = .Decrease
+    var easing: CubicBezier.Easing? {
+        didSet {
+            easingControlPoints = easing?.toControlPoints()
+        }
+    }
+    
     var isCounting: Bool = false
     var isPause: Bool = false
-    var textFormatter: ((value: Int) -> String) = { value -> String in
+    var textFormatter: ((value: Double) -> String) = { value -> String in
         return String(value)
     }
     
-    private var timer: NSTimer?
-    private var startTimeStamp: Int = 0
-    private var startCountingValue: Int = 0
-    private var countingValue: Int = 0
+    var startValue: Double = 0 {
+        didSet {
+            startCountingValue = startValue
+            self.text = textFormatter(value: startValue)
+        }
+    }
+    var stopValue: Double = 0
+    
+    private var cubicBezier: CubicBezier?
+    private var timer: CADisplayLink?
+    private var startTimeStamp: Double = 0
+    private var startCountingValue: Double = 0
+    private var currentCountingValue: Double = 0
+    
+    convenience init(easing: CubicBezier.Easing, startValue: Double, stopValue: Double, frame: CGRect = CGRectZero) {
+        self.init(frame: frame)
+        
+        self.startValue = startValue
+        self.stopValue = stopValue
+        self.easing = easing
+    }
+    
+    convenience init(controlPoints: (Double, Double, Double, Double), startValue: Double, stopValue: Double, frame: CGRect = CGRectZero) {
+        self.init(frame: frame)
+        
+        self.startValue = startValue
+        self.stopValue = stopValue
+        self.easingControlPoints = controlPoints
+    }
+    
+    // MARK: - Initializers
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+        
+        self.initPropertiesDefaultValue()
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+        
+        self.initPropertiesDefaultValue()
+    }
     
     // MARK: - Selectors
-    func updateCountingLabel(_: NSTimer) {
-        let currentTimeStamp = Int(NSDate().timeIntervalSince1970)
-        let progress = countingValue + (currentTimeStamp - startTimeStamp) * countingMode.rawValue
+    func updateCountingLabel(_: AnyObject) {
+        guard let cubicBezier = cubicBezier else {
+            return
+        }
         
-        self.text = textFormatter(value: progress)
+        let duration: Double = (self.duration <= 0) ? fabs(stopValue - startCountingValue) : Double(self.duration)
+        
+        // If duration is equal to zero, change time is stopValue reduce to startCountingValue means update text per seconds.
+        let changeTime = NSDate.timeIntervalSinceReferenceDate() - startTimeStamp
+        
+        if changeTime >= duration {
+            timer?.invalidate()
+            timer = nil
+        } else {
+            let changeValue = stopValue - startCountingValue
+            
+            let t = changeTime / duration
+            
+            currentCountingValue = startCountingValue + changeValue * cubicBezier.easing(t)
+            
+            self.text = textFormatter(value: currentCountingValue)
+        }
     }
     
     // MARK: - Public Methods
     func start() {
         if timer == nil {
-            guard let labelText = self.text, let currentValue = Int(labelText) else {
-                return
+            startTimeStamp = NSDate.timeIntervalSinceReferenceDate()
+            
+            if isPause {
+                startCountingValue = currentCountingValue
             }
             
-            startTimeStamp = Int(NSDate().timeIntervalSince1970)
-            
-            if !isPause {
-                startCountingValue = currentValue
-            }
-            
-            countingValue = currentValue
-            
-            timer = NSTimer.scheduledTimerWithTimeInterval(0.5, target: self, selector: #selector(updateCountingLabel(_:)), userInfo: nil, repeats: true)
+            timer = CADisplayLink(target: self, selector: #selector(updateCountingLabel(_:)))
+            timer?.addToRunLoop(NSRunLoop.mainRunLoop(), forMode: NSDefaultRunLoopMode)
             
             isCounting = true
             isPause = false
@@ -69,6 +127,12 @@ class CountingLabel: UILabel {
         
         isPause = false
         
-        self.text = textFormatter(value: startCountingValue)
+        startCountingValue = startValue
+        self.text = textFormatter(value: startValue)
+    }
+    
+    // MARK: - Private Methods
+    private func initPropertiesDefaultValue() {
+        easing = .Linear
     }
 }
