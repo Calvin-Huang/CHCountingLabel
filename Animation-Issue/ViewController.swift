@@ -7,19 +7,33 @@
 //
 
 import UIKit
+import CHCubicBezier
 
 class ViewController: UIViewController {
-
+    @IBOutlet weak var countingLabel: CountingLabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        countingLabel.textFormatter = { (value: Double) -> String in
+            return "\(Int(value))"
+        }
+        countingLabel.easing = CubicBezier.Easing.EaseInOut
+        countingLabel.duration = 5
+        countingLabel.startValue = 50
+//        countingLabel.stopValue = 100
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    @IBAction func startCountingButtonClicked(_: AnyObject) {
+        countingLabel.start()
     }
-
-
+    
+    @IBAction func pauseCountingButtonClicked(_: AnyObject) {
+        countingLabel.pause()
+    }
+    
+    @IBAction func stopCoutingButtonClicked(_: AnyObject) {
+        countingLabel.stop()
+    }
 }
 
