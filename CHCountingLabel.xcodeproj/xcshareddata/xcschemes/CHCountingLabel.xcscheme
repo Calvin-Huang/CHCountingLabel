@@ -28,26 +28,6 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "18E8BCD61D7A719500CC8893"
-               BuildableName = "CHCountingLabel.xctest"
-               BlueprintName = "CHCountingLabelTests"
-               ReferencedContainer = "container:CHCountingLabel.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "18E8BCE11D7A719500CC8893"
-               BuildableName = "CHCountingLabel.xctest"
-               BlueprintName = "CHCountingLabelUITests"
-               ReferencedContainer = "container:CHCountingLabel.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
