@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18B137171D7DC73400C9D780 /* Pods_CHCountingLabel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B137161D7DC73400C9D780 /* Pods_CHCountingLabel.framework */; };
 		18FE3E7F1D7CA119008CC182 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FE3E7B1D7CA119008CC182 /* ViewController.swift */; };
 		18FE3E801D7CA119008CC182 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FE3E7C1D7CA119008CC182 /* AppDelegate.swift */; };
 		18FE3E811D7CA119008CC182 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18FE3E7D1D7CA119008CC182 /* Assets.xcassets */; };
 		18FE3E841D7CA137008CC182 /* CountingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FE3E831D7CA137008CC182 /* CountingLabel.swift */; };
 		18FE3E931D7CA49C008CC182 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18FE3E8F1D7CA49C008CC182 /* Main.storyboard */; };
 		18FE3E941D7CA49C008CC182 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18FE3E911D7CA49C008CC182 /* LaunchScreen.storyboard */; };
-		859A455D3FF9F8C655BB261A /* Pods_CHCountingLabel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D20B02C4DCE3DEB8089CBF68 /* Pods_CHCountingLabel.framework */; };
-		FB144FC21ED1FC48C576E4B8 /* Pods_CHCountingLabelUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05AFE20D6D3846A6A910A5DA /* Pods_CHCountingLabelUITests.framework */; };
-		FB43EE66E18B60BBF4657584 /* Pods_CHCountingLabelTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0D39C29940922B333FDB712 /* Pods_CHCountingLabelTests.framework */; };
+		2295C2F10A28CE2AAAA7B116 /* Pods_CHCountingLabelUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53C8267907383C3BC0AEB43A /* Pods_CHCountingLabelUITests.framework */; };
+		8AA4262B9263698C3BA07223 /* Pods_CHCountingLabelTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28699E6E3325C89000287789 /* Pods_CHCountingLabelTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		05AFE20D6D3846A6A910A5DA /* Pods_CHCountingLabelUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CHCountingLabelUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18B137161D7DC73400C9D780 /* Pods_CHCountingLabel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_CHCountingLabel.framework; path = "../../../Library/Developer/Xcode/DerivedData/CHCountingLabel-hkfhjunsfsbqghhgvwftyqduhqhe/Build/Products/Debug-iphonesimulator/Pods_CHCountingLabel.framework"; sourceTree = "<group>"; };
 		18E8BCC31D7A719400CC8893 /* CHCountingLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CHCountingLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18E8BCD71D7A719500CC8893 /* CHCountingLabel.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CHCountingLabel.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18E8BCE21D7A719500CC8893 /* CHCountingLabel.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CHCountingLabel.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,13 +47,14 @@
 		18FE3E901D7CA49C008CC182 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = CHCountingLabel/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
 		18FE3E921D7CA49C008CC182 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = CHCountingLabel/Base.lproj/LaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
 		1A7024D33C0512C61977ECD7 /* Pods-CHCountingLabel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHCountingLabel.release.xcconfig"; path = "Pods/Target Support Files/Pods-CHCountingLabel/Pods-CHCountingLabel.release.xcconfig"; sourceTree = "<group>"; };
+		28699E6E3325C89000287789 /* Pods_CHCountingLabelTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CHCountingLabelTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		53C8267907383C3BC0AEB43A /* Pods_CHCountingLabelUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CHCountingLabelUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A6A2D825A57546A367A35AE /* Pods-CHCountingLabel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHCountingLabel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CHCountingLabel/Pods-CHCountingLabel.debug.xcconfig"; sourceTree = "<group>"; };
 		6EF656F11EE8BC87FF389131 /* Pods-CHCountingLabelUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHCountingLabelUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CHCountingLabelUITests/Pods-CHCountingLabelUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		704B24B69E3D2DA28CD1C3CF /* Pods-CHCountingLabelUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHCountingLabelUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CHCountingLabelUITests/Pods-CHCountingLabelUITests.release.xcconfig"; sourceTree = "<group>"; };
 		9EBE285E41BA5CD2B53E8434 /* Pods-CHCountingLabelTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHCountingLabelTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CHCountingLabelTests/Pods-CHCountingLabelTests.debug.xcconfig"; sourceTree = "<group>"; };
-		C0D39C29940922B333FDB712 /* Pods_CHCountingLabelTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CHCountingLabelTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB6B3A16C42AA4927817B4B6 /* Pods-CHCountingLabelTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHCountingLabelTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CHCountingLabelTests/Pods-CHCountingLabelTests.release.xcconfig"; sourceTree = "<group>"; };
-		D20B02C4DCE3DEB8089CBF68 /* Pods_CHCountingLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CHCountingLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFE784A2B225B41CC55D7366 /* Pods_CHCountingLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CHCountingLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				859A455D3FF9F8C655BB261A /* Pods_CHCountingLabel.framework in Frameworks */,
+				18B137171D7DC73400C9D780 /* Pods_CHCountingLabel.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,7 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB43EE66E18B60BBF4657584 /* Pods_CHCountingLabelTests.framework in Frameworks */,
+				8AA4262B9263698C3BA07223 /* Pods_CHCountingLabelTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,7 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB144FC21ED1FC48C576E4B8 /* Pods_CHCountingLabelUITests.framework in Frameworks */,
+				2295C2F10A28CE2AAAA7B116 /* Pods_CHCountingLabelUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,9 +143,10 @@
 		C443CE7CCF92B556296F566E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D20B02C4DCE3DEB8089CBF68 /* Pods_CHCountingLabel.framework */,
-				C0D39C29940922B333FDB712 /* Pods_CHCountingLabelTests.framework */,
-				05AFE20D6D3846A6A910A5DA /* Pods_CHCountingLabelUITests.framework */,
+				18B137161D7DC73400C9D780 /* Pods_CHCountingLabel.framework */,
+				EFE784A2B225B41CC55D7366 /* Pods_CHCountingLabel.framework */,
+				28699E6E3325C89000287789 /* Pods_CHCountingLabelTests.framework */,
+				53C8267907383C3BC0AEB43A /* Pods_CHCountingLabelUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
