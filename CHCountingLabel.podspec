@@ -41,11 +41,11 @@ Use CHCountingLabel and make more fantasy effect to your app.
 
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  s.source       = { :git => "https://github.com/Calvin-Huang/CHCountingLabel", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/Calvin-Huang/CHCountingLabel.git", :tag => s.version.to_s }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  s.source_files  = "CHCountingLabel/CHCountingLabel.swift"
+  s.source_files  = "CHCountingLabel/CountingLabel.swift"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
