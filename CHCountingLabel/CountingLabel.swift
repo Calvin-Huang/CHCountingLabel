@@ -9,33 +9,33 @@
 import UIKit
 import CHCubicBezier
 
-class CountingLabel: UILabel {
-    var duration: Float = 0
-    var easingControlPoints: (x1: Double, y1: Double, x2: Double, y2: Double)? {
-        didSet {
-            cubicBezier = CubicBezier(controlPoints: easingControlPoints!)
-        }
-    }
-    
-    var easing: CubicBezier.Easing? {
-        didSet {
-            easingControlPoints = easing?.toControlPoints()
-        }
-    }
-    
-    var isCounting: Bool = false
-    var isPause: Bool = false
-    var textFormatter: ((value: Double) -> String) = { value -> String in
-        return String(value)
-    }
-    
-    var startValue: Double = 0 {
+public class CountingLabel: UILabel {
+    @IBInspectable public var duration: Float = 0
+    @IBInspectable public var startValue: Double = 0 {
         didSet {
             startCountingValue = startValue
             self.text = textFormatter(value: startValue)
         }
     }
-    var stopValue: Double = 0
+    @IBInspectable public var stopValue: Double = 0
+    
+    public var easingControlPoints: (x1: Double, y1: Double, x2: Double, y2: Double)? {
+        didSet {
+            cubicBezier = CubicBezier(controlPoints: easingControlPoints!)
+        }
+    }
+    
+    public var easing: CubicBezier.Easing? {
+        didSet {
+            easingControlPoints = easing?.toControlPoints()
+        }
+    }
+    
+    public var isCounting: Bool = false
+    public var isPause: Bool = false
+    public var textFormatter: ((value: Double) -> String) = { value -> String in
+        return String(value)
+    }
     
     private var cubicBezier: CubicBezier?
     private var timer: CADisplayLink?
@@ -43,7 +43,7 @@ class CountingLabel: UILabel {
     private var startCountingValue: Double = 0
     private var currentCountingValue: Double = 0
     
-    convenience init(easing: CubicBezier.Easing, startValue: Double, stopValue: Double, frame: CGRect = CGRectZero) {
+    public convenience init(easing: CubicBezier.Easing, startValue: Double, stopValue: Double, frame: CGRect = CGRectZero) {
         self.init(frame: frame)
         
         self.startValue = startValue
@@ -51,7 +51,7 @@ class CountingLabel: UILabel {
         self.easing = easing
     }
     
-    convenience init(controlPoints: (Double, Double, Double, Double), startValue: Double, stopValue: Double, frame: CGRect = CGRectZero) {
+    public convenience init(controlPoints: (Double, Double, Double, Double), startValue: Double, stopValue: Double, frame: CGRect = CGRectZero) {
         self.init(frame: frame)
         
         self.startValue = startValue
@@ -60,13 +60,13 @@ class CountingLabel: UILabel {
     }
     
     // MARK: - Initializers
-    override init(frame: CGRect) {
+    public override init(frame: CGRect) {
         super.init(frame: frame)
         
         self.initPropertiesDefaultValue()
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    public required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         
         self.initPropertiesDefaultValue()
@@ -98,7 +98,7 @@ class CountingLabel: UILabel {
     }
     
     // MARK: - Public Methods
-    func start() {
+    public func start() {
         if timer == nil {
             startTimeStamp = NSDate.timeIntervalSinceReferenceDate()
             
@@ -114,7 +114,7 @@ class CountingLabel: UILabel {
         }
     }
     
-    func pause() {
+    public func pause() {
         timer?.invalidate()
         timer = nil
         
@@ -122,7 +122,7 @@ class CountingLabel: UILabel {
         isPause = true
     }
     
-    func stop() {
+    public func stop() {
         pause()
         
         isPause = false
