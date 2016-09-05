@@ -14,8 +14,6 @@
 		18FE3E841D7CA137008CC182 /* CountingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FE3E831D7CA137008CC182 /* CountingLabel.swift */; };
 		18FE3E931D7CA49C008CC182 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18FE3E8F1D7CA49C008CC182 /* Main.storyboard */; };
 		18FE3E941D7CA49C008CC182 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18FE3E911D7CA49C008CC182 /* LaunchScreen.storyboard */; };
-		2295C2F10A28CE2AAAA7B116 /* Pods_CHCountingLabelUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53C8267907383C3BC0AEB43A /* Pods_CHCountingLabelUITests.framework */; };
-		8AA4262B9263698C3BA07223 /* Pods_CHCountingLabelTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28699E6E3325C89000287789 /* Pods_CHCountingLabelTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,14 +45,11 @@
 		18FE3E901D7CA49C008CC182 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = CHCountingLabel/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
 		18FE3E921D7CA49C008CC182 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = CHCountingLabel/Base.lproj/LaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
 		1A7024D33C0512C61977ECD7 /* Pods-CHCountingLabel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHCountingLabel.release.xcconfig"; path = "Pods/Target Support Files/Pods-CHCountingLabel/Pods-CHCountingLabel.release.xcconfig"; sourceTree = "<group>"; };
-		28699E6E3325C89000287789 /* Pods_CHCountingLabelTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CHCountingLabelTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		53C8267907383C3BC0AEB43A /* Pods_CHCountingLabelUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CHCountingLabelUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A6A2D825A57546A367A35AE /* Pods-CHCountingLabel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHCountingLabel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CHCountingLabel/Pods-CHCountingLabel.debug.xcconfig"; sourceTree = "<group>"; };
 		6EF656F11EE8BC87FF389131 /* Pods-CHCountingLabelUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHCountingLabelUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CHCountingLabelUITests/Pods-CHCountingLabelUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		704B24B69E3D2DA28CD1C3CF /* Pods-CHCountingLabelUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHCountingLabelUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CHCountingLabelUITests/Pods-CHCountingLabelUITests.release.xcconfig"; sourceTree = "<group>"; };
 		9EBE285E41BA5CD2B53E8434 /* Pods-CHCountingLabelTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHCountingLabelTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CHCountingLabelTests/Pods-CHCountingLabelTests.debug.xcconfig"; sourceTree = "<group>"; };
 		CB6B3A16C42AA4927817B4B6 /* Pods-CHCountingLabelTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHCountingLabelTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CHCountingLabelTests/Pods-CHCountingLabelTests.release.xcconfig"; sourceTree = "<group>"; };
-		EFE784A2B225B41CC55D7366 /* Pods_CHCountingLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CHCountingLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +65,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8AA4262B9263698C3BA07223 /* Pods_CHCountingLabelTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,7 +72,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2295C2F10A28CE2AAAA7B116 /* Pods_CHCountingLabelUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,9 +137,6 @@
 			isa = PBXGroup;
 			children = (
 				18B137161D7DC73400C9D780 /* Pods_CHCountingLabel.framework */,
-				EFE784A2B225B41CC55D7366 /* Pods_CHCountingLabel.framework */,
-				28699E6E3325C89000287789 /* Pods_CHCountingLabelTests.framework */,
-				53C8267907383C3BC0AEB43A /* Pods_CHCountingLabelUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
