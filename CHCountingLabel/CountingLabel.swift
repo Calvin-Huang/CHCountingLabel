@@ -72,6 +72,19 @@ public class CountingLabel: UILabel {
         self.initPropertiesDefaultValue()
     }
     
+    public deinit() {
+        timer?.invalidate()
+        timer = nil
+    }
+    
+    // MARK: - Life Cycle
+    override func removeFromSuperview() {
+        timer?.invalidate()
+        timer = nil
+        
+        super.removeFromSuperview()
+    }
+    
     // MARK: - Selectors
     func updateCountingLabel(_: AnyObject) {
         guard let cubicBezier = cubicBezier else {
