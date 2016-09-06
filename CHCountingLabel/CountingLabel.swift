@@ -72,13 +72,13 @@ public class CountingLabel: UILabel {
         self.initPropertiesDefaultValue()
     }
     
-    public deinit() {
+    deinit {
         timer?.invalidate()
         timer = nil
     }
     
     // MARK: - Life Cycle
-    override func removeFromSuperview() {
+    public override func removeFromSuperview() {
         timer?.invalidate()
         timer = nil
         
