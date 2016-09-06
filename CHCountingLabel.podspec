@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.name         = "CHCountingLabel"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "CHCountingLabel provides basic counting and counting depends on bezier path."
 
   s.description  = <<-DESC
